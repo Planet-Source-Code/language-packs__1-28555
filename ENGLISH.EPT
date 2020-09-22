@@ -1,0 +1,37 @@
+EPT
+
+; EPT Test - English Language Pack
+; --------------------------------------------
+; This file demonstrates all the possibilities
+; of the EPT file format.
+
+; The following are properties belonging to FormMain.
+>FormMain
+
+  ; Assigns a new caption to the form.
+  formmain..CAP = EPT Test
+
+  ; Changes the caption of the menu.
+  mnuselectlanguage..CAP = Language
+
+  ; Assigns a single caption value to a whole control array.
+  cmdclickme.!.CAP = Click me!
+
+  ; Assigns a single tooltip value to the first two controls
+  ; of the control array.
+  cmdclickme.0-1.TIP = Click with your mouse.
+
+  ; And now to the left two
+  cmdclickme.2-3.TIP = You can click these too.
+
+  ; Assigns text to a label caption.
+  lbltext..CAP = External Properties Tables(EPT) file format loader//brBoth this code and the file format are copyrighted by Pedro Fayolle (a.k.a. piLaF-kun)
+
+  ; Assigns a same value to two different controls.
+  lblwrite..CAP = txttext..TXT = Write here
+
+
+; The following are strings to be used within message boxes.
+>Messages
+
+  clicked = Congratulations!//brYou've learnt how to click!

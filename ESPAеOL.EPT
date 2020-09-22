@@ -1,0 +1,14 @@
+EPT
+
+
+>FormMain
+  formmain..CAP = Testeo de EPT
+  mnuselectlanguage..CAP = Idioma
+  cmdclickme.!.CAP = ¡Hazme clíc!
+  cmdclickme.0-1.TIP = Haz clíc con tu ratón.
+  cmdclickme.2.3.TIP = Puedes hacer clíc aquí también.
+  lbltext..CAP = Cargador del formato External Properties Tables(EPT)//brTanto este código como el formato son propiedades de Pedro Fayolle (alias piLaF-kun)
+  lblwrite..CAP = txttext..TXT = Escribe aquí
+
+>Messages
+  clicked = ¡Felicidades!//br¡Has aprendido a hacer clíc!
