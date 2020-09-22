@@ -1,0 +1,122 @@
+EPT
+
+>formmain
+  btnpopupmenu..TIP=Menú Contextual
+  frmedit..CAP=Editar..
+  optsave.1.CAP=&Cuadro de Chat
+  optsave.0.CAP=&Mensajes
+  frmsavingsettings..CAP=Opciones de Salvado
+  chksavefontsettings..CAP=&Efectos
+  chksavefontname..CAP=F&uente
+  chksavebackcolor..CAP=&Fondo
+  chksavepencolor..CAP=&Pluma
+  frmfontsettings..CAP=Propiedades de Fuente
+  checkfontsettings.3.TIP=Subrayado
+  checkfontsettings.2.TIP=Tachado
+  checkfontsettings.1.TIP=Cursiva
+  checkfontsettings.0.TIP=Negrita
+  cmbfont..TIP=Lista de Fuentes
+  btnfont..TIP=Editar Lista de Fuentes
+  frmpresets..CAP=Perfiles
+  cmbpreset..TIP=Lista de Perfiles
+  btnpresets.1.TIP=Guardar como Perfil
+  btnpresets.0.TIP=Editar Perfiles
+  frmpreview..CAP=Previsualización
+  lblpreview.1.CAP=Propiedades Actuales
+  lblpreview.0.CAP=Nuevas Propiedades
+  frmcolorsettings..CAP=Propiedades del Color
+  checkpencolor..TIP=Cambiar edición a Pluma/Fondo
+  checklock..TIP=Asociar ramas de color
+  btninvert..TIP=Intercambiar colores
+  lblrgb.0.CAP=R:
+  lblrgb.1.CAP=G:
+  lblrgb.2.CAP=B:
+  frmgeneral..CAP=Opciones Generales
+  checkautoset..TIP=Actualizar colores automáticamente
+  checkontop..TIP=Mantenera al frente
+  btnundo..TIP=Deshacer Cambios
+  btnsavesettings..TIP=Aplicar Nuevas Propiedades
+  btnhelp.1.TIP=Acerca de..
+  btnhelp.0.TIP=Abrir Páginas de Ayuda
+  frmuserdata..CAP=Datos de Usuario
+  cmbusername..TIP=Lista de Usuarios Locales de ICQ
+  lblmenu..CAP=<< menú
+  mnuhelp.0.CAP=&Páginas de Ayuda
+  mnuhelp.1.CAP=&Acerca de..
+  mnuonline.0.CAP=PCS En línea
+  mnuonline.1.CAP=Missing Features
+  popicqoptions..CAP=&Opciones de ICQ
+  poprunicq..CAP=&Ejecutar ICQ
+  mnurunicq.0.CAP=&Normal
+  mnurunicq.1.CAP=&Minimizado (sin presentación)
+  poplastowner..CAP=Establecer útimo &Usuario
+  popspecialfeatures..CAP=&Funciones Especiales
+  mnurndpreset..CAP=&Activar Temporizador
+  mnucustrndpreset..CAP=&Configurar Temporizador
+  mnupaste..CAP=&Pegar Color HTML
+  mnucopy..CAP=Copiar Color &HTML
+  mnurefresh..CAP=&Refrescar
+  mnutray..CAP=&Minimizar al SysTray
+  mnurestart..CAP=&Reiniciar
+  mnuexit..CAP=&Salir
+  mnushow..CAP=&Mostrar
+  mnucancel..CAP=&Cerrar Menú
+  mnutrayrndpreset..CAP=Activar &Temporizador
+  mnutraycustrndpreset..CAP=&Configurar Temporizador
+  mnutrayhelp.0.CAP=&Páginas de Ayuda
+  mnutrayhelp.1.CAP=&Acerca de..
+  mnutraytray..CAP=&Minimizar al SysTray
+  mnulanguagepack..CAP=&Elegir Idioma
+  mnuclose..CAP=&Salir
+
+>formfontslist
+  formfontslist..CAP=Editor de Lista de Fuentes
+  frmpreview..CAP=Previsualización de Fuente
+  ;lblprev..CAP=Aa Bb Cc
+  cmdokcancel.0.CAP=&Aceptar
+  cmdokcancel.1.CAP=&Cancelar
+  cmdaddrem.1.TIP=Quitar de Lista
+  cmdaddrem.0.TIP=Agregar a Lista
+  lblcustfonts.1.CAP=Lista de Fuentes:
+
+>formsavepreset
+  formsavepreset..CAP=Save Preset
+  cmdcancel..CAP=&Cancel
+  cmdsave..CAP=&Save
+
+>formabout
+  lblonline.0.CAP=PCS En Línea
+  ;lblonline.1.CAP=Missing Features
+  cmddone..CAP=&Hecho
+
+>formpresetsedit
+  formpresetsedit..CAP=Editor de Perfiles
+  frmsettings.1.CAP=Opciones
+  cmddelete..CAP=&Eliminar
+  cmdrename..CAP=&Renombrar
+  lblpreview..CAP=Previsualización
+  cmddone..CAP=&Hecho
+
+>formrandompreset
+  formrandompreset..CAP=Configurar Temporizador
+  frminterval..CAP=Intervalo de Tiempo
+  lblseconds..CAP=Segundo(s)
+  cmdokcancel.0.CAP=&Aceptar
+  cmdokcancel.1.CAP=&Cancelar
+
+>formlanguagepacks
+  formlanguagepacks..CAP=Elegir Paquete de Idioma
+  cmdcancel..CAP=&Cancelar
+  cmdselect..CAP=&Elegir
+  frmavailable..CAP=Paquetes de Idioma disponibles
+
+>messages
+  invalid_command=El comando '%command%' no es un comando de línea de comando válido.//brICQ Color Picker ahora continuará su carga.
+  invalid_uin=El número de ICQ '%uin%' no es un número de ICQ válido o no existe localmente.
+  notfound_font=La fuente '%font%' está presente en su sistema, pero no en su lista de fuentes favoritas.//br¿Desea agregarla y usarla?
+  notfound_presets=El directorio de perfiles especificado no existe.//br¿Desea que ICQ Color Picker lo cree?
+  no_presets=No hay perfiles disponibles.
+  no_fonts=Debe agregar al menos una fuente a la lista de fuentes.
+  no_users=No se ha encontrado ningún usuario de ICQ registrado.//brICQ Color Picker ahora se cerrará.
+  overwrite_preset=El perfil '%preset%' ya existe.//br¿Desea sobreescribirlo?
+  delete_preset=¿Está seguro que desea eliminar el perfil '%preset%'?
